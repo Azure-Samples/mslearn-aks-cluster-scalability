@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: contoso-website
 spec:
+  replicas: 15
   selector:
     matchLabels:
       app: contoso-website
